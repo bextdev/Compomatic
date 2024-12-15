@@ -37,7 +37,7 @@ public class Compomatic extends AndroidNonvisibleComponent {
       }
 
       // Convert the map into a YailList
-      YailList yailList = convertMapToYailList(componentsMap);
+      YailList yailList = convertMapToYailList(componentsMap.keySet());
 
       // Convert the YailList to a String
       String componentsAsString = yailList.toString();
