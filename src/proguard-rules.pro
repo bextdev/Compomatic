@@ -1,7 +1,7 @@
 # Add any ProGuard configurations specific to this
 # extension here.
 
--keep public class com.bextdev.Compomatic.Compomatic {
+-keep public class ph.bxtdev.Compomatic.Compomatic {
     public *;
  }
 -keeppackagenames gnu.kawa**, gnu.expr**
@@ -10,6 +10,6 @@
 -allowaccessmodification
 -mergeinterfacesaggressively
 
--repackageclasses 'com/bextdev/Compomatic/repack'
+-repackageclasses 'ph/bxtdev/Compomatic/repack'
 -flattenpackagehierarchy
 -dontpreverify
